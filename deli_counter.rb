@@ -17,8 +17,6 @@ $ticket_number = 0
 def take_a_number(katz_deli)
   ticket_number += 1
   katz_deli << ticket_number
-end
-
  puts "Welcome you are ticket #: #{ticket_number}"
 end
 
