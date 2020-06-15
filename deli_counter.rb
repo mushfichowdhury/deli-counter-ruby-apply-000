@@ -13,10 +13,13 @@ def line(katz_deli)
   puts "The line is currently: #{position.join(" ")}"
 end
 end
+ticket_number = 0 
+def take_a_number(katz_deli)
+  count_2 = 1
+  katz_deli << ticket_number
+  ticket_number += 1
 
-def take_a_number(katz_deli, new_customer)
-  katz_deli << new_customer
-  puts "Welcome, #{new_customer}. You are number #{katz_deli.count} in line."
+ puts "Welcome you are ticket #: #{ticket_number}"
 end
 
 def now_serving(katz_deli)
