@@ -13,11 +13,11 @@ def line(katz_deli)
   puts "The line is currently: #{position.join(" ")}"
 end
 end
-ticket_number = 0 
+$ticket_number = 0 
 def take_a_number(katz_deli)
-  count_2 = 1
-  katz_deli << ticket_number
   ticket_number += 1
+  katz_deli << ticket_number
+end
 
  puts "Welcome you are ticket #: #{ticket_number}"
 end
