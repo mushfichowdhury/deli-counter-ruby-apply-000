@@ -27,4 +27,9 @@ def now_serving(katz_deli)
     katz_deli.shift
   end
 end
+
+# def take_a_number(katz_deli, new_customer)
+#   katz_deli << new_customer
+#   puts "Welcome, #{new_customer}. You are number #{katz_deli.count} in line."
+# end
   
