@@ -13,6 +13,7 @@ def line(katz_deli)
   puts "The line is currently: #{position.join(" ")}"
 end
 end
+
 $ticket_number = 0 
 def take_a_number(katz_deli)
   ticket_number += 1
